@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents an interactive Amazon Product Analytics dashboard developed using Microsoft Power BI to analyze product pricing, discounts, ratings, categories, and product performance.
+This project presents an interactive Amazon Product Analytics dashboard developed using Microsoft Power BI to analyze product pricing, discounts, ratings, customer engagement, and product performance.
 
-The dashboard provides insights into product ratings, customer rating counts, pricing differences, discount patterns, category-level performance, and top-performing products.
+The dashboard provides insights into product ratings, rating counts, pricing differences, discount patterns, category-level performance, and top-performing products.
 
 ## Business Objective
 
@@ -97,42 +97,42 @@ Based on the analysis, businesses can consider:
 
 ## Dashboard Preview
 
-Dashboard screenshots will be added to this section.
-
 ### Product Overview
 
-![Product Overview](Screenshots/01_Product_Overview.png)
+![Product Overview](Screenshots/overview.png)
 
 ### Pricing and Discounts
 
-![Pricing and Discounts](Screenshots/02_Pricing_and_Discounts.png)
+![Pricing and Discounts](Screenshots/pricing_discount.png)
 
 ### Product Performance
 
-![Product Performance](Screenshots/03_Product_Performance.png)
+![Product Performance](Screenshots/product_performance.png)
 
 ## Project Structure
 
+```text
 Amazon_Product_Analytics_Dashboard/
-
-- Dashboard/
-  - Amazon_Product_Analytics_Dashboard.pbix
-- Dataset/
-  - amazon.csv
-- Screenshots/
-  - 01_Product_Overview.png
-  - 02_Pricing_and_Discounts.png
-  - 03_Product_Performance.png
-- Documentation/
-- DAX/
-- README.md
-
-## Author
-
-### Harshita Singh
-
-B.Tech – Computer Science & Engineering
-
-Aspiring Data Analyst
-
-Skills: Python, SQL, Excel, Power BI, DAX, Power Query, Data Analysis, Data Visualization
+│
+├── Dashboard/
+│   └── Amazon_Product_Analytics_Dashboard.pbix
+│
+├── Dataset/
+│   └── amazon.csv
+│
+├── Screenshots/
+│   ├── Overview.png
+│   ├── Pricing_Discount.png
+│   └── Product_Performance.png
+│
+├── Documentation/
+│   ├── Business_Problem.md
+│   ├── Data_Cleaning.md
+│   ├── Data_Dictionary.md
+│   ├── Key_Insights.md
+│   └── Recommendations.md
+│
+├── DAX/
+│   └── Measures.md
+│
+└── README.md
